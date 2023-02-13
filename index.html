@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Interactive Pricing Component</title>
+</head>
+<body>
+  
+    <div class="circle-background">
+      <h1 class="title-style">Simple, traffic-based pricing</h1>
+    <p class="text-style">Sign-up for our 30-day trial. No credit card required.</p>
+  </div>
+
+
+    <div class="white-container">
+      <p class="pageViews-style">100K PAGEVIEWS</p>
+      <div>
+        <input type="range" name="range" min="1" max="5" value="3"  class="slider" id="range" aria-label="input">
+      </div>
+
+      <div class="price-container">
+        <p class="price-text-style">$16.00</p>
+        <p class="month-text-style">/ month</p>
+      </div>
+
+      <div class="billing-container">
+          <p class="billing-text-style">Monthly Billing</p>
+
+          <button  onclick="choose()" class="turnOnButton">
+            <div  class="knob-left"></div>
+            
+          </button>
+
+          <p class="billing-text-style">Yearly Billing</p>
+          <div class="discount-container">
+            <p class="discount-text">-25%</p>
+          </div>
+      </div>
+
+      <div class="footer-div">
+        
+        <div class="end-container">
+          <div class="end-text-container">
+            <div><img src="./images/icon-check.svg"/></div>
+              <p class="end-container-text-style">Unlimited websites</p>
+          </div>
+
+          <div class="end-text-container">
+            <div><img src="./images/icon-check.svg"/></div>
+            <p class="end-container-text-style">100% data ownership </p>
+        </div>
+
+        <div class="end-text-container">
+          <div><img src="./images/icon-check.svg"/></div>
+          <p class="end-container-text-style">Email reports</p>
+        </div>
+      </div>
+
+      <button class="end-button-container">
+        <p class="end-button-text-style">Start my trial</p>
+      </button>
+    
+    </div>
+
+
+
+
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
