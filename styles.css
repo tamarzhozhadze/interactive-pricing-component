@@ -30,7 +30,7 @@ body{
     text-align: center;
     color: #293356;
     margin-bottom: 8px;
-    margin-top: 89px;
+    margin-top: 70px;
 }
 .text-style{
     font-family: Manrope;
@@ -41,7 +41,7 @@ body{
     text-align: center;
     color: #848EAD;
     margin-inline: 100px;
-    margin-bottom: 64px;
+    margin-bottom: 50px;
 }
 .white-container{
     background-color: #FFFFFF;
@@ -359,15 +359,14 @@ body{
     font-weight: 800;
     line-height: 38px;
     margin-bottom: 12px;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 .text-style{
     font-family: Manrope;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
-    
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 }
