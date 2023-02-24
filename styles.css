@@ -7,7 +7,6 @@
 body{
    
     font-family: 'Manrope', sans-serif;
-
     width:100%;
     height:100vh;
     background-image: url(./images/bg-pattern.svg);
@@ -99,7 +98,7 @@ body{
 }
 
 
-.price-container{
+.mobile-price-container{
     display:flex;
     justify-content: center;
     flex-direction: row;
@@ -178,6 +177,9 @@ body{
     margin-left: -25px;
     
 }
+.desktop-discount-text{
+    display: none;
+}
 .discount-text{
     font-family: Manrope;
     font-size: 10px;
@@ -187,6 +189,11 @@ body{
     text-align: center;
     color: #FF8D68;
     
+}
+.line{
+    
+    border: 1px solid #F2F2F2;
+    margin-bottom: 24px;
 }
 .footer-div{
     border-top: 1px solid 100% #ECF0FB;
@@ -232,3 +239,136 @@ body{
     color:#FFFFFF;
 
 }
+@media (min-width:1440px){
+body{
+    background-position: top center;
+    
+}
+
+    .white-container{
+        margin-inline: 450px;
+        padding-bottom: 33px;
+        padding-top: 40px;
+        /* padding-inline: 48px; */
+    }
+   .desktop-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 24px;
+    padding-inline: 48px;
+   }
+    .item3{
+    grid-row: 1;
+    grid-column: 2;
+   }
+   .item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+    
+   }
+   .slider[type=range]{
+    width:444px;
+    margin-bottom:0;
+    margin-inline: 0;
+}
+    .pageViews-style{
+    
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 19px;
+        letter-spacing: 2px;
+        text-align: start;
+        margin-bottom: 0;
+        margin-inline: 0;
+}
+    .desktop-page-view{
+        display: flex;
+        align-items: center;
+    }
+    .mobile-price-container{
+        justify-content: end;
+    }
+    .price-text-style{
+        font-family: Manrope;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 55px;
+        letter-spacing: -1px;
+        margin:0;
+
+    }
+.billing-container{
+    justify-content: end;
+    gap: 16px;
+    padding-right: 65px;
+    padding-left:48px ;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-top: 40px;
+    
+}
+.discount-container{
+    width:80px;
+    
+    margin-left: 0;
+    
+}
+.desktop-discount-text{
+    display: block;
+    font-family: Manrope;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 14px;
+    margin-top: 2px;
+    text-align: center;
+    color: #FF8D68;
+}
+.discount-text{
+    display: none;
+    
+}
+.line{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.footer-div{
+    padding-bottom: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-inline: 48px;
+}
+.end-text-container{
+    display: flex;
+    justify-content: start;
+    gap:16px;
+}
+
+.end-button-container{
+    margin-top: 0;
+    
+}
+.title-style{
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    margin-bottom: 12px;
+    margin-top: 104px;
+}
+.text-style{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    
+    margin-bottom: 92px;
+}
+
+}
+
