@@ -9,6 +9,7 @@ let  knobJS = true;
 function choose() {
   buttonJS.classList.toggle("active");
   knobJS =!knobJS;
+  insertValue(sliderJS.value);
   console.log(knobJS);
 }
 
@@ -51,11 +52,11 @@ function insertValue(one){
     
   }
   if (one === "2" && !knobJS) {
-    money.textContent = "$36";
+    money.textContent = "$36.00";
     viewJS.textContent = "50K pageviews"; 
   }
   if (one === "3" && !knobJS) {
-    money.textContent = "$48";
+    money.textContent = "$48.00";
     viewJS.textContent = "100K pageviews"; 
   }
   if (one === "4" && !knobJS) {
@@ -63,7 +64,7 @@ function insertValue(one){
     viewJS.textContent = "500K pageviews"; 
   }
   if (one === "5" && !knobJS) {
-    money.textContent = "$108";
+    money.textContent = "$108.00";
     viewJS.textContent = "1M pageviews"; 
   }
 }
